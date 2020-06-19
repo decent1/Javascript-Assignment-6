@@ -244,9 +244,9 @@
 // document.write(result);
 
 //answer 4 :
-// var dayName = ["Monday" , "Tuesday" , "wednesday" , "Thursday" , "Friday", "Saturday" , "Sunday"];
+// var dayName = ["Sunday" , "Monday" , "Tuesday" , "wednesday" , "Thursday" , "Friday", "Saturday" ];
 // var date = new Date().getDay();
-// if (date === "Saturday"  ||  date === "Sunday" ) {
+// if (dayName[date] === "Sunday" ||  dayName[date] === "Saturday" ) {
 //     alert("Today is FunDay")
 // }else {
 //     alert("Today is Working Day")
@@ -288,7 +288,7 @@
 // var date1 = new Date("Jun 18, 2015"); 
 // var date2 = new Date("Jun 19, 2020")
   
-// // To calculate the time difference of two dates 
+// To calculate the time difference of two dates 
 // var Difference_In_Time = date2.getTime() - date1.getTime(); 
   
 // // To calculate the no. of days between two dates 
@@ -301,13 +301,10 @@
 // var date1 = new Date("Jan 1, 2015"); 
 // var date2 = new Date("Dec 5, 2015");
   
-// // To calculate the time difference of two dates 
 // var Difference_In_Time = date2.getTime() - date1.getTime(); 
-  
-// // To calculate the no. of days between two dates 
+ 
 // var Difference_In_Days = Difference_In_Time / (1000 *60); 
-  
-// //To display the final no. of days (result) 
+ 
 // document.write("Total number of days passed " + Difference_In_Days); 
 
 
@@ -508,7 +505,7 @@
 // document.write(longestString(converted));
 
 
-//asnwer 13  :
+// asnwer 13  :
 // var sentence = prompt("Enter your text");
 // var word = prompt("Enter one  letter");
 // function occurance(sentence , word ) {
@@ -523,8 +520,8 @@
 // } 
 // document.write(  "Count the number of occurance " + occurance(sentence , word));
 
-//answer 14 :
-//part a
+// answer 14 :
+// part a
 // var radius = +prompt("Calculate the circumference based on the radius")
 // function calcCircumference(radius) {
 //     var formula = 2 * 3.14 * radius ;
